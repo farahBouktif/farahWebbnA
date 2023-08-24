@@ -1,0 +1,9 @@
+.error {
+    color: rgb(178, 38, 38);
+    font-size: 12px;
+}
+
+.success {
+    color: rgb(38, 172, 38);
+    font-size: 12px;
+}

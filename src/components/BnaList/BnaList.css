@@ -1,0 +1,13 @@
+.List{
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.List:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}

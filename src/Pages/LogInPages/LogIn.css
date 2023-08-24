@@ -1,0 +1,21 @@
+.cnx {
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+  
+}
+.cnx::before {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  height: 6px;
+  left: 1%;
+margin-bottom: 10%;
+  width: 0;
+  background: #adf0d1;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+.cnx:hover::before {
+  width: 100%;
+}

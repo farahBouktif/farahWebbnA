@@ -1,0 +1,57 @@
+
+.log-out-sidebar{
+  font-size: 90% !important;
+}
+  .sidenav {
+    height: 100vh;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #00203F;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 9px 10px 20px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+  }
+  .log-btn{
+    width: 70px !important ;
+    height: 70px !important;
+    margin-top: 50vh;
+    margin-left: 3rem;
+  }
+  .log-btn img {
+    width: 150%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .menu{
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+ 
+  .sidenav a:hover {
+    color: #818181;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

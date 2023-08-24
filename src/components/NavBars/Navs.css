@@ -1,0 +1,38 @@
+.titel-nav {
+  display: flex !important;
+  color: white !important;
+  margin: 1% !important;
+  margin-left: 30% !important;
+  margin-bottom: 2% !important;
+}
+
+.appBars {
+  background-color: #00203f !important;
+}
+.inscri {
+  text-decoration: none;
+  color: aliceblue;
+  position: relative;
+  font-weight: unset
+}
+.inscri::before {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  height: 6px;
+  left: 1%;
+  margin-bottom: 10%;
+  width: 0;
+  background: #adf0d1;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+.inscri:hover::before {
+  width: 100%;
+}
+.box-log {
+  display: flex;
+}
+.B {
+  margin-left: 3%;
+}
